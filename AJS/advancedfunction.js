@@ -35,16 +35,45 @@ fun(k); //call by value
 fun(ar) //call by reference*/
 
 
-// Call Back Function ---> When we pass function as parameter then it is called call back function.
+// 1.Call Back Function ---> When we pass function as parameter then it is called call back function.
 
-function fun(num)
+function calculator(myfunction)
 {
-num()
+myfunction()
 }
 
-fun(addition);
+calculator(add);
 
-function addition()
+function add ();
+
 {
-console.log("hi this is the call back function")
+let num1=10;
+let num2=20;
+let sum=num1+num2
+document.write("adddition of two no is ::", sum)
 }
+
+function sub()
+{
+let num1=10;
+let num2=20;
+let sub=num1-num2
+document.write("substraction of two no is ::", sub)
+
+}
+
+
+// 2.Higher Order function---> When a function return another function then we called higher order function
+
+function fun()
+{
+    return function(){document.write("hi this is higher order function")}
+}
+let result=fun()
+result();
+
+// 3. IIFE Immidiate Invoked Function Expression
+
+(function fun(){
+    document.write("hi this is IIFE Immidiate Invoked Function")
+}())
