@@ -33,3 +33,18 @@ let k=10; //primative variable
 let ar=[55,99]
 fun(k); //call by value
 fun(ar) //call by reference*/
+
+
+// Call Back Function ---> When we pass function as parameter then it is called call back function.
+
+function fun(num)
+{
+num()
+}
+
+fun(addition);
+
+function addition()
+{
+console.log("hi this is the call back function")
+}
