@@ -1,4 +1,5 @@
 // Session-01 Advanced Function
+// Define function--->
 // i.By Expression Function--> When we store function in  variable (i.e let expression = function fun(){body} and called by also same variable (we can use any name of variable).
 
 
@@ -23,3 +24,12 @@ num(); */
 /*let arr=()=> document.write("This is Arrow type function")
 
 arr(); //calling */
+
+/*function fun (num1)
+{
+    document.write(num1)
+}
+let k=10; //primative variable
+let ar=[55,99]
+fun(k); //call by value
+fun(ar) //call by reference*/
