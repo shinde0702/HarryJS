@@ -1,0 +1,1 @@
+document.write("Heloo Welcome To Lear Function")
