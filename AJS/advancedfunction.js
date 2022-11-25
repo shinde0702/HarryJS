@@ -9,7 +9,7 @@
 expression();      */
 
 
-// ii.Ananoymous Function--> no need to take function name /Without name function.
+// ii.Ananoymous Function--> this is same as by expression function but here no need to take function name /Without name function.
 
 /*let num = function(){
 
